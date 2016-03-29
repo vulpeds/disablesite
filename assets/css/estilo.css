@@ -1,0 +1,68 @@
+/*
+//	
+//	
+*/
+
+html{
+	background: url('../img/bg_filtro.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fullbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.centerbox {
+    margin: 0% auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 75%;
+}
+
+.centerbox div img{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.centerbox div h1{
+	text-align: center;
+	color: white;
+}
+
+.centerbox div p{
+	color: white;
+	text-align: center;
+}
+
+#social{
+	list-style: none;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	padding: 0;
+}
+
+#social li{
+	display: inline;
+}
+
+#social li:first-child{
+	margin-right: 10px;
+}
+
+#social li:last-child{
+	margin-left: 10px;
+}
+
+#social li i{
+	color: white;
+}
